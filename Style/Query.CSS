@@ -1,0 +1,23 @@
+body{
+    background-color: teal;
+}
+.box {
+    position: relative;
+}
+
+.split {
+    height: 100px;
+    width: 50px;
+    background-color:#eee8aa;
+    /*The color is palegoldenrod*/
+    margin: 0px;
+}
+#bounce{
+    text-align: right;
+    position:absolute;
+}
+#bounce2 {
+    top:0px;
+    left:50px;
+    position: absolute;
+} 

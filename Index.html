@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <!--This is the header info-->
+        <!--Author: Lewis McCormac-->
+        <link rel = "styleSheet" type = "text/css" href="./Style/HelloWorld1.CSS">
+        <script type="text/javascript" src="Script/HelloWorld.js"></script>
+        <title>My first website</title>
+    </head>
+    <body>
+        <!--The body contains the visual elements of the website-->
+        <span class ="blinking"><h1 class = "Name">Welcome to the thunderdome</h1></span>
+        <!--Above is a header in the largest size -->
+        <!--Below is a paragraph-->
+        <div class = "box">
+        <P class="rotator">Below this paragraph is an unordered list followed
+         by an ordered list. Though things have changed and that isnt the case anymore.
+          The lists are further down the page now </P>
+          </div>
+          <div class ="links">
+         <p><a href= "https://www.w3schools.com">W3Scchools</a> Its a good place for tips</p>
+         <!--Above brings you to w3school througha link-->
+         <!--Below brings you to the next page-->
+         <a href="HelloWorld2.html">Next Page</a> 
+         <a href ="QueryTest.html">jquery </a>
+         <br>
+         <!--This is an iframe linked to a test domain-->
+         <iframe width = "400" height = "400"  src="https://www.example.com"></iframe>    
+        </div>
+        <div>
+         <ul class ="list">
+            <h3>List 1</h3>
+            <li>This </li>
+            <li>Is</li>
+            <li>An</li>
+            <li>Unordered</li>
+            <li>List</li>
+        </ul>
+        <!--The list above is an unordered list-->
+        <!--The list below is an ordered list-->
+        <ol class = "list">
+            <h3>List 2 </h3>
+            <li>This</li>
+            <li>Is</li>
+            <li>An</li>
+            <li>Ordered</li>
+            <li>List</li>            
+        </ol>
+        </div>
+        <!--Below is the the common style of using the image tag-->
+        <div>
+        <img class = "picture" alt ="This is a royal high standing castle" src = "./images/img1.jpg"/>
+        <img class = "picture " alt="This is a royal germanic castle" src = "./images/img2.jpg"/>
+        </div>
+        <br>
+        <button name="buttonOneClicked" onclick="ButtonOneClicked()">Button One</button>
+        <input type= "button" value ="What am I?" onclick="ButtonThreeClicked()"/>
+
+        <!--This is a drop down menu showing four items-->
+       <select id = "LinkMenu">
+         
+           <option value ="Google" >Google</option>
+           <option value = "Youtube" >Youtube</option>
+           <option value = "Facebook" >Facebook</option>
+           <option value = "Instagram" >Instagram</option>
+       </select>
+       
+       <input type = "button" value="Go" onclick="OpenPage()"/>
+       <input type = "button" value="Punch it" onclick="TextButton()"/>
+       <input type = "button" value="Stop it" onclick= "TextStop()"/>
+       <!--Above is a set of 3 buttons with different functions-->
+       <p id="evil">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at nunc tincidunt, congue orci eu, aliquet ipsum. Proin at lacinia dui. Nullam et leo velit. In lorem metus, sagittis eget bibendum ut, malesuada sit amet eros. 
+        Phasellus ullamcorper tempus pharetra. In hendrerit malesuada hendrerit. Donec porttitor tellus in erat dignissim auctor.
+        Ut efficitur est suscipit lectus hendrerit, eu faucibus felis semper. Proin condimentum dapibus sem eget lobortis.
+        Vestibulum pulvinar imperdiet scelerisque. Nunc malesuada ipsum ac odio molestie consequat. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+        Donec ac vehicula mauris. Curabitur sit amet ornare felis. Ut posuere ante orci, non ultrices tortor ullamcorper vel. Curabitur molestie, sapien a cursus ultrices, mauris dui pellentesque justo, id pulvinar diam ipsum scelerisque nibh. Curabitur sem est,
+        dignissim eget congue eget, placerat ac orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque vehicula, odio in maximus vulputate,
+        urna lorem tempor libero, quis consectetur ex ex venenatis augue. Mauris ultricies mauris ac lorem volutpat, non vehicula ligula facilisis.</p>
+    </body>
+    <footer> 
+        <!--Footer displaying when the webpage was made-->
+        made 13/05/19      
+    </footer>
+</html>
